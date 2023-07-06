@@ -1,6 +1,6 @@
 import app from "../src/app"
 import request from "supertest";
-
+ 
 describe('GET /users', ()=>{
     // should resp with a 200 status code
     test('Debe responder con un código de estado 200', async()=>{

@@ -5,7 +5,7 @@ const app = express();
 app.get('/user', (req, res)=>{
     res.status(200).json();
 })
-
+ 
 app.get('/allusers', (req, res)=>{
     res.json([]);
 })

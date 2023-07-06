@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get('/user', (req, res)=>{
-    res.status(200).json();
+    res.status(300).json();
 })
 
 app.get('/allusers', (req, res)=>{

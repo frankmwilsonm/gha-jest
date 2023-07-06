@@ -22,6 +22,10 @@ app.post("/adduser", (req, res) => {
     res.json({});
   });
 
+app.post("/adduser", (req, res) => {
+    res.json({});
+});
+
 
 
 

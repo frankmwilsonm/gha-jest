@@ -18,12 +18,17 @@ app.post("/newuser", (req, res) => {
     res.status(200).json();
   });
 
+       app.post("/newuser", (req, res) => {
+    res.status(200).json();
+  });
 
 app.post("/adduser", (req, res) => {
     res.json({});
   });
 
-
+      app.post("/adduser", (req, res) => {
+    res.json({});
+});
 
 
 

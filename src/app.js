@@ -24,6 +24,4 @@ app.post("/adduser", (req, res) => {
   });
 
 
-
-
 export default app;

@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  test:
+  testing-code:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Single Greet
-        run: echo Hola mundo :D!!!!
+        run: echo Iniciando P.U. con Jest :D!!!!
         
       - name: Install / Config Node.js
         uses: actions/setup-node@v2
